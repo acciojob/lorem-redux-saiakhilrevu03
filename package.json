@@ -19,7 +19,7 @@
     "@reduxjs/toolkit": "^2.7.0",
 "react-redux": "^9.2.0",
 "redux": "^5.0.1",
-"redux-thunk": "^3.1.0"
+"redux-thunk": "^3.1.0",
 
     "style-loader": "^1.2.1",
     "webpack-cli": "^3.3.12",
