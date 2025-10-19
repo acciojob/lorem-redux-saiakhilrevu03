@@ -11,7 +11,7 @@ function App() {
   }, [dispatch]);
 
   if (loading) {
-    return <p>Loading...</p>;
+    return <h4>Loading...</h4>;  // Use h4 for loading as test expects
   }
 
   if (error) {
@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div>
-      <h2>{title}</h2>
+      <h1>{title}</h1>  {/* h1 for title intro text */}
       <p>{body}</p>
     </div>
   );
